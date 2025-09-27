@@ -46,8 +46,8 @@ export default function LightsSequence() {
                 onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = "#1d4ed8")}
                 onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = "#2563eb")}
                 onClick={() => {
-                    setActiveIndex(-1);
-                    setPhase("running");
+                    setActiveIndex(-1)
+                    setPhase("running")
                 }}
             >
                 Iniciar Corrida
@@ -60,3 +60,4 @@ export default function LightsSequence() {
         </div>
     )
 }
+
