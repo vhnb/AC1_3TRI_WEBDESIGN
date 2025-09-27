@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #111;
+  color: #fff;
+}
+
+.main h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
